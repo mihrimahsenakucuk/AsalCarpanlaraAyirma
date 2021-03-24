@@ -16,7 +16,7 @@ public class AsalCarpanlaraAyirma {
             sayi /=2 ;
         }
 
-        for(int i = 3 ; i <= Math.sqrt(sayi); i+= 2){
+        for(int i = 3 ; i <= sayi ; i+= 2){
             while (sayi % i ==0) {
                 System.out.print(i + " ");
                 sayi /= i;
