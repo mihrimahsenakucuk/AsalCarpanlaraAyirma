@@ -10,7 +10,7 @@ public class AsalCarpanlaraAyirma {
 
         if(sayi > 0) {
 
-        }
+        
         while(sayi % 2== 0 ){
             System.out.print(2 + " ");
             sayi /=2 ;
@@ -29,5 +29,5 @@ public class AsalCarpanlaraAyirma {
 
     }
 
-
+   }
 }
